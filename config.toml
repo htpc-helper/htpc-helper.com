@@ -29,29 +29,14 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "Man who says it cannot be done should not interrupt man doing it - Confucius"
+  homeSubtitle = "Person who says it cannot be done should not interrupt person doing it - Confucius"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # gitUrl = "https://github.com/Someone/SomeRepo/commit/" # Prefix of link to the git commit detail page. GitInfo must be enabled.
   justifyContent = false  # Set "text-align: justify" to .content, requires extended version of Hugo
-  # bgImg = ""  #  Homepage background-image URL
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  # [[params.social]]
-  #   name = "twitter"
-  #   url = "https://twitter.com/"
-
-  # [[params.social]]
-  #   name = "instagram"
-  #   url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
     url = "https://github.com/htpc-helper"
-
-  [[params.social]]
-    name = "email"
-    url = "mailto:htpc.helper@gmail.com"
 
 [menu]
 
@@ -62,5 +47,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "About"
-    url = "/about-me/"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Disclaimer"
+    url = "/disclaimer/"
     weight = 20
