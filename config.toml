@@ -49,9 +49,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "github"
     url = "https://github.com/htpc-helper"
 
-  # [[params.social]]
-  #   name = "email"
-  #   url = "mailto:htpc.helper@gmail.com"
+  [[params.social]]
+    name = "email"
+    url = "mailto:htpc.helper@gmail.com"
 
 [menu]
 
